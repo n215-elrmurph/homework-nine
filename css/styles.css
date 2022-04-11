@@ -1,0 +1,812 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+#app {
+  padding: 50px;
+  min-height: calc(100vh - 100px);
+  width: 100%;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #171f59;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #171f59;
+  color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero {
+  height: 400px;
+  background-image: url(../images/home.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -50px;
+  margin-right: -50px;
+  margin-top: -50px;
+  position: relative;
+}
+.hero .title {
+  font-size: 50px;
+  color: #FFF;
+  background-color: #171f59;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  top: 150px;
+  left: 32%;
+}
+
+.content .stats {
+  background-color: #f7f7f7;
+  height: 200px;
+  margin-top: 30px;
+  position: relative;
+  border-radius: 30px;
+  border: 0.5px solid #000;
+}
+.content .stats .majors .number {
+  position: absolute;
+  font-size: 60px;
+  color: #ffa024;
+  top: 45px;
+  left: 15%;
+  font-weight: bold;
+}
+.content .stats .majors .number-title {
+  position: absolute;
+  font-size: 30px;
+  color: #3f9efc;
+  top: 105px;
+  left: 15%;
+}
+.content .stats .students .number {
+  position: absolute;
+  font-size: 60px;
+  color: #ffa024;
+  top: 45px;
+  left: 33%;
+  font-weight: bold;
+}
+.content .stats .students .number-title {
+  position: absolute;
+  font-size: 30px;
+  color: #3f9efc;
+  top: 105px;
+  left: 35%;
+}
+.content .stats .campuses .number {
+  position: absolute;
+  font-size: 60px;
+  color: #ffa024;
+  top: 45px;
+  left: 57%;
+  font-weight: bold;
+}
+.content .stats .campuses .number-title {
+  position: absolute;
+  font-size: 30px;
+  color: #3f9efc;
+  top: 105px;
+  left: 54%;
+}
+.content .stats .sports .number {
+  position: absolute;
+  font-size: 60px;
+  color: #ffa024;
+  top: 45px;
+  left: 75%;
+  font-weight: bold;
+}
+.content .stats .sports .number-title {
+  position: absolute;
+  font-size: 30px;
+  color: #3f9efc;
+  top: 105px;
+  left: 75.5%;
+}
+.content .new-schools {
+  margin-top: 40px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.content .new-schools .school1 img {
+  height: 400px;
+  width: 330px;
+  margin-left: 30px;
+}
+.content .new-schools .school1 p.school1-words {
+  position: absolute;
+  top: 20px;
+  left: 375px;
+  font-size: 20px;
+}
+.content .new-schools .school1 .virtual-tour {
+  position: absolute;
+  text-decoration: none;
+  color: #3f9efc;
+  top: 130px;
+  left: 375px;
+  font-size: 20px;
+}
+.content .new-schools .school2 img {
+  height: 400px;
+  width: 330px;
+  margin-left: 400px;
+}
+.content .new-schools .school2 p.school2-words {
+  position: absolute;
+  top: 20px;
+  left: 1110px;
+  font-size: 20px;
+}
+.content .new-schools .school2 .visit-website {
+  position: absolute;
+  text-decoration: none;
+  color: #3f9efc;
+  top: 130px;
+  left: 1110px;
+  font-size: 20px;
+}
+.content .support-students {
+  background-color: #f7f7f7;
+  margin-top: 40px;
+  position: relative;
+  border-radius: 30px;
+  border: 0.5px solid #000;
+}
+.content .support-students img {
+  margin-left: 175px;
+}
+.content .support-students .support-title {
+  position: absolute;
+  top: 20px;
+  left: 650px;
+  font-size: 30px;
+  border-bottom: 1px dashed black;
+  padding: 10px;
+}
+.content .support-students .support-desc {
+  position: absolute;
+  top: 100px;
+  left: 660px;
+  font-size: 20px;
+}
+.content .support-students .support-our-students {
+  position: absolute;
+  text-decoration: none;
+  top: 190px;
+  left: 655px;
+  background-color: darkgray;
+  padding: 10px;
+  border-radius: 20px;
+  color: #FFF;
+  font-weight: bold;
+}
+.content .support-students .give-now {
+  position: absolute;
+  text-decoration: none;
+  top: 190px;
+  left: 865px;
+  background-color: #34c22b;
+  padding: 10px;
+  border-radius: 20px;
+  color: #FFF;
+  font-weight: bold;
+}
+.content .choose-marian {
+  margin-top: 40px;
+  background-color: #ffb921;
+  height: 350px;
+  border-radius: 30px;
+  border: 0.5px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.content .choose-marian .marian-title {
+  color: #171f59;
+  font-size: 30px;
+}
+.content .choose-marian .career-ready {
+  height: 200px;
+  width: 600px;
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: 1px solid #171f59;
+}
+.content .choose-marian .career-ready .career-ready-title {
+  color: #ffb921;
+  font-size: 23px;
+  font-weight: bold;
+  margin-left: 30%;
+  padding-top: 20px;
+}
+.content .choose-marian .career-ready .career-ready-desc {
+  color: #000;
+  margin-left: 10%;
+  text-indent: 10px;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.academics-hero {
+  height: 400px;
+  background-image: url(../images/academics-hero.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -50px;
+  margin-right: -50px;
+  margin-top: -50px;
+  position: relative;
+}
+.academics-hero .academics-title {
+  font-size: 50px;
+  color: #FFF;
+  background-color: #171f59;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  top: 150px;
+  left: 39%;
+}
+
+.content .academic-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 40px;
+}
+.content .academic-images img {
+  width: 400px;
+  height: 350px;
+}
+.content .schools-and-programs {
+  margin-top: 40px;
+  height: 800px;
+  background-color: #f7f7f7;
+  border-radius: 30px;
+  border: 0.5px solid #000;
+}
+.content .schools-and-programs .schools-and-programs-title {
+  font-size: 30px;
+  color: #000;
+  padding-top: 30px;
+  margin-left: 41%;
+}
+.content .schools-and-programs .program-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.content .schools-and-programs .program-list .program1 {
+  height: 180px;
+  width: 350px;
+  background-color: #fff;
+  border: 0.5px solid #171f59;
+}
+.content .schools-and-programs .program-list .program1 .program-title {
+  color: #000;
+  font-size: 20px;
+  padding: 10px;
+}
+.content .schools-and-programs .program-list .program1 .program-desc {
+  color: #636363;
+  padding: 10px;
+  font-size: 17px;
+  text-indent: 10px;
+}
+.content .schools-and-programs .program-list .program2 {
+  height: 180px;
+  width: 350px;
+  background-color: #fff;
+  border: 0.5px solid #171f59;
+}
+.content .schools-and-programs .program-list .program2 .program-title {
+  color: #000;
+  font-size: 20px;
+  padding: 10px;
+}
+.content .schools-and-programs .program-list .program2 .program-desc {
+  color: #636363;
+  padding: 10px;
+  font-size: 17px;
+  text-indent: 10px;
+}
+.content .schools-and-programs .program-list .program3 {
+  height: 180px;
+  width: 350px;
+  background-color: #fff;
+  border: 0.5px solid #171f59;
+}
+.content .schools-and-programs .program-list .program3 .program-title {
+  color: #000;
+  font-size: 20px;
+  padding: 10px;
+}
+.content .schools-and-programs .program-list .program3 .program-desc {
+  color: #636363;
+  padding: 10px;
+  font-size: 17px;
+  text-indent: 10px;
+}
+.content .abroad-study {
+  margin-top: 40px;
+  background-color: #f7f7f7;
+  border-radius: 30px;
+  border: 0.5px solid #000;
+  position: relative;
+}
+.content .abroad-study img {
+  height: 350px;
+  width: 450px;
+  margin-left: 180px;
+}
+.content .abroad-study p.study-abroad-title {
+  position: absolute;
+  font-size: 30px;
+  top: 30px;
+  left: 630px;
+  color: #171f59;
+}
+.content .abroad-study p.study-abroad-desc {
+  position: absolute;
+  font-size: 20px;
+  top: 90px;
+  left: 630px;
+}
+.content .abroad-study .study-abroad-btn {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3f9efc;
+  border: 1px solid #3f9efc;
+  padding: 10px;
+  position: absolute;
+  top: 150px;
+}
+.content .abroad-study .international {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3f9efc;
+  border: 1px solid #3f9efc;
+  padding: 10px;
+  position: absolute;
+  top: 150px;
+  left: 775px;
+}
+.content .abroad-study .student-success {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3f9efc;
+  border: 1px solid #3f9efc;
+  padding: 10px;
+  position: absolute;
+  top: 200px;
+  left: 630px;
+}
+
+.faith-hero {
+  height: 400px;
+  background-image: url(../images/faith/faith-hero.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -50px;
+  margin-right: -50px;
+  margin-top: -50px;
+  position: relative;
+}
+.faith-hero .faith-title {
+  font-size: 50px;
+  color: #FFF;
+  background-color: #171f59;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  top: 150px;
+  left: 38%;
+}
+
+.content .values {
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 40px;
+}
+.content .values .values-title {
+  font-size: 30px;
+  border-bottom: 0.5px dashed #171f59;
+  color: #171f59;
+}
+.content .values .values-desc {
+  font-size: 17px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+.content .religious-art {
+  background-color: #f7f7f7;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 30px;
+  border: 0.5px solid #171f59;
+  margin-top: 40px;
+}
+.content .religious-art .religous-art-title {
+  font-size: 30px;
+  color: #171f59;
+  border-bottom: 0.5px dashed #171f59;
+  margin-bottom: 20px;
+}
+.content .religious-art a.prayers {
+  text-decoration: none;
+  color: #3f9efc;
+  border: 1px solid #3f9efc;
+  padding: 10px;
+  font-weight: bold;
+}
+.content .mission-statement {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.content .mission-title {
+  font-size: 30px;
+  color: #171f59;
+  border-bottom: 0.5px dashed #000;
+}
+.content .mission-desc {
+  padding: 15px;
+}
+.content .mission-desc .desc-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+.content .mission-desc .desc {
+  font-size: 18px;
+}
+.content .upcoming-events {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f7f7f7;
+  height: 500px;
+  border-radius: 30px;
+  border: 0.5px solid #000;
+}
+.content .upcoming-events .upcoming-events-title {
+  font-size: 30px;
+  color: #171f59;
+  border-bottom: 0.5px dashed #171f59;
+  margin-bottom: 20px;
+}
+.content .upcoming-events img {
+  height: 300px;
+  width: 900px;
+}
+.content .upcoming-events a.ministry-events {
+  text-decoration: none;
+  color: #3f9efc;
+  border: 1px solid #3f9efc;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.student-life-hero {
+  height: 400px;
+  background-image: url(../images/studentLife/student-life-hero.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -50px;
+  margin-right: -50px;
+  margin-top: -50px;
+  position: relative;
+}
+.student-life-hero .student-life-title {
+  font-size: 50px;
+  color: #FFF;
+  background-color: #171f59;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  top: 150px;
+  left: 37%;
+}
+
+.content .life-on-campus {
+  margin-top: 40px;
+  background-color: #f7f7f7;
+  height: 350px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 0.5px solid #000;
+}
+.content .life-on-campus .life-on-campus-title {
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: #171f59;
+}
+.content .life-on-campus .life-on-campus-desc {
+  font-size: 18px;
+}
+.content .student-organizations {
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.content .student-organizations .student-organization-title {
+  font-size: 30px;
+  color: #171f59;
+  padding: 15px;
+  border-bottom: 1px dashed #171f59;
+}
+.content .student-organizations a.governemnt {
+  text-decoration: none;
+  color: #3f9efc;
+  border: 0.5px solid #3f9efc;
+  padding: 15px;
+  margin-top: 15px;
+}
+.content .student-organizations a.clubs {
+  text-decoration: none;
+  color: #3f9efc;
+  border: 0.5px solid #3f9efc;
+  padding: 15px;
+  margin-top: 15px;
+}
+.content .housing-options-title {
+  font-size: 30px;
+  color: #171f59;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  padding-top: 40px;
+  border: 0.5px solid #000;
+  border-bottom: none;
+}
+.content .housing-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #f7f7f7;
+  margin-top: 0px;
+  border: 0.5px solid #000;
+  border-top: none;
+}
+.content .housing-options .housing-option1 {
+  height: 400px;
+  width: 363px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border: 0.5px solid #171f59;
+}
+.content .housing-options .housing-option1 img {
+  padding: 5px;
+}
+.content .housing-options .housing-option1 .option1-title {
+  font-size: 20px;
+  padding: 10px;
+}
+.content .housing-options .housing-option1 .option1-desc {
+  font-size: 18px;
+  padding-left: 10px;
+  line-height: 22px;
+}
+.content .housing-options .housing-option1 a.option1-btn {
+  text-decoration: none;
+  color: #3f9efc;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.content .housing-options .housing-option2 {
+  height: 400px;
+  width: 363px;
+  margin-top: 30px;
+  border: 0.5px solid #171f59;
+}
+.content .housing-options .housing-option2 img {
+  padding: 5px;
+}
+.content .housing-options .housing-option2 .option2-title {
+  font-size: 20px;
+  padding: 10px;
+}
+.content .housing-options .housing-option2 .option2-desc {
+  font-size: 18px;
+  padding-left: 10px;
+  line-height: 22px;
+}
+.content .housing-options .housing-option2 a.option2-btn {
+  text-decoration: none;
+  color: #3f9efc;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.content .housing-options .housing-option3 {
+  height: 400px;
+  width: 363px;
+  margin-top: 30px;
+  border: 0.5px solid #171f59;
+}
+.content .housing-options .housing-option3 img {
+  padding: 5px;
+}
+.content .housing-options .housing-option3 .option3-title {
+  font-size: 20px;
+  padding: 10px;
+}
+.content .housing-options .housing-option3 .option3-desc {
+  font-size: 18px;
+  padding-left: 10px;
+  line-height: 22px;
+}
+.content .housing-options .housing-option3 a.option3-btn {
+  text-decoration: none;
+  color: #3f9efc;
+  padding-left: 10px;
+  font-weight: bold;
+}

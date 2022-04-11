@@ -1,0 +1,262 @@
+.hero {
+        height: 400px;
+        background-image: url(../images/home.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: -50px;
+        margin-right: -50px;
+        margin-top: -50px;
+        position: relative;
+
+        .title {
+            font-size: 50px;
+            color: #FFF;
+            background-color: #171f59;
+            width:fit-content;
+            padding: 10px;
+            display: flex;
+            margin: 0 auto;
+            position: absolute;
+            top: 150px;
+            left: 32%;
+        }
+    }
+
+    .content {
+        .stats {
+            background-color: #f7f7f7;
+            height: 200px;
+            margin-top: 30px;
+            position: relative;
+            border-radius: 30px;
+            border: .5px solid #000;
+
+            .majors {
+                .number {
+                    position: absolute;
+                    font-size: 60px;
+                    color: #ffa024;
+                    top: 45px;
+                    left: 15%;
+                    font-weight: bold;
+                }
+
+                .number-title {
+                    position: absolute;
+                    font-size: 30px;
+                    color: #3f9efc;
+                    top: 105px;
+                    left: 15%;
+                }
+            }
+
+            .students {
+                .number {
+                    position: absolute;
+                    font-size: 60px;
+                    color: #ffa024;
+                    top: 45px;
+                    left: 33%;
+                    font-weight: bold;
+                }
+
+                .number-title {
+                    position: absolute;
+                    font-size: 30px;
+                    color: #3f9efc;
+                    top: 105px;
+                    left: 35%;
+                }
+            }
+
+            .campuses {
+                .number {
+                    position: absolute;
+                    font-size: 60px;
+                    color: #ffa024;
+                    top: 45px;
+                    left: 57%;
+                    font-weight: bold;
+                }
+
+                .number-title {
+                    position: absolute;
+                    font-size: 30px;
+                    color: #3f9efc;
+                    top: 105px;
+                    left: 54%;
+                }
+            }
+
+            .sports {
+                .number {
+                    position: absolute;
+                    font-size: 60px;
+                    color: #ffa024;
+                    top: 45px;
+                    left: 75%;
+                    font-weight: bold;
+                }
+
+                .number-title {
+                    position: absolute;
+                    font-size: 30px;
+                    color: #3f9efc;
+                    top: 105px;
+                    left: 75.5%;
+                }
+            }
+        }
+
+        .new-schools {
+            margin-top: 40px;
+            position: relative;
+            display: flex;
+
+            .school1 {
+                img {
+                    height: 400px;
+                    width: 330px;
+                    margin-left: 30px;
+                }
+
+                p.school1-words {
+                    position: absolute;
+                    top: 20px;
+                    left: 375px;
+                    font-size: 20px;
+                }
+
+                .virtual-tour {
+                    position: absolute;
+                    text-decoration: none;
+                    color: #3f9efc;
+                    top: 130px;
+                    left: 375px;
+                    font-size: 20px;
+                }
+            }
+
+            .school2 {
+                img {
+                    height: 400px;
+                    width: 330px;
+                    margin-left: 400px;
+                }
+
+                p.school2-words {
+                    position: absolute;
+                    top: 20px;
+                    left: 1110px;
+                    font-size: 20px;
+                }
+
+                .visit-website {
+                    position: absolute;
+                    text-decoration: none;
+                    color: #3f9efc;
+                    top: 130px;
+                    left: 1110px;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .support-students {
+            background-color: #f7f7f7;
+            margin-top: 40px;
+            position: relative;
+            border-radius: 30px;
+            border: .5px solid #000;
+
+            img {
+                margin-left: 175px;
+            }
+
+            .support-title {
+                position: absolute;
+                top: 20px;
+                left: 650px;
+                font-size: 30px;
+                border-bottom: 1px dashed black;
+                padding: 10px;
+            }
+
+            .support-desc {
+                position: absolute;
+                top: 100px;
+                left: 660px;
+                font-size: 20px;
+            }
+
+            .support-our-students {
+                position: absolute;
+                text-decoration: none;
+                top: 190px;
+                left: 655px;
+                background-color: darkgray;
+                padding: 10px;
+                border-radius: 20px;
+                color: #FFF;
+                font-weight: bold;
+            }
+
+            .give-now {
+                position: absolute;
+                text-decoration: none;
+                top: 190px;
+                left: 865px;
+                background-color: #34c22b;
+                padding: 10px;
+                border-radius: 20px;
+                color: #FFF;
+                font-weight: bold;
+            }
+        }
+
+        .choose-marian {
+            margin-top: 40px;
+            background-color: #ffb921;
+            height: 350px;
+            border-radius: 30px;
+            border: .5px solid #000;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+
+            .marian-title {
+                color: #171f59;
+                font-size: 30px;
+            }
+
+            .career-ready {
+                height: 200px;
+                width: 600px;
+                background-color: #fff;
+                margin-top: 20px;
+                border-radius: 30px;
+                border: 1px solid #171f59;
+
+                .career-ready-title {
+                    color: #ffb921;
+                    font-size: 23px;
+                    font-weight: bold;
+                    margin-left: 30%;
+                    padding-top: 20px;
+                }
+
+                .career-ready-desc {
+                    color: #000;
+                    margin-left: 10%;
+                    text-indent: 10px;
+                    padding: 10px;
+                    font-size: 17px;
+                }
+            }
+        }
+
+
+    }

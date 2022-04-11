@@ -1,0 +1,131 @@
+.faith-hero {
+    height: 400px;
+    background-image: url(../images/faith/faith-hero.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-top: -50px;
+    position: relative;
+
+    .faith-title {
+        font-size: 50px;
+        color: #FFF;
+        background-color: #171f59;
+        width:fit-content;
+        padding: 10px;
+        display: flex;
+        margin: 0 auto;
+        position: absolute;
+        top: 150px;
+        left: 38%;
+    }
+}
+
+.content {
+    .values {
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 40px;
+
+        .values-title {
+            font-size: 30px;
+            border-bottom: .5px dashed #171f59;
+            color: #171f59;
+        }
+
+        .values-desc {
+            font-size: 17px;
+            margin-top: 20px;
+            line-height: 25px;
+        }
+    }
+
+    .religious-art {
+        background-color: #f7f7f7;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 30px;
+        border: .5px solid #171f59;
+        margin-top: 40px;
+
+        .religous-art-title {
+            font-size: 30px;
+            color: #171f59;
+            border-bottom: .5px dashed #171f59;
+            margin-bottom: 20px;
+        }
+
+        a.prayers {
+            text-decoration: none;
+            color: #3f9efc;
+            border: 1px solid #3f9efc;
+            padding: 10px;
+            font-weight: bold;
+        }
+    }
+
+    .mission-statement {
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mission-title {
+        font-size: 30px;
+        color: #171f59;
+        border-bottom: .5px dashed #000;
+    }
+
+    .mission-desc {
+        padding: 15px;
+        .desc-title {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .desc {
+            font-size: 18px;
+        }
+    }
+
+    .upcoming-events {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #f7f7f7;
+        height: 500px;
+        border-radius: 30px;
+        border: .5px solid #000;
+
+        .upcoming-events-title {
+            font-size: 30px; 
+            color:#171f59;
+            border-bottom: .5px dashed #171f59;
+            margin-bottom: 20px;
+        }
+
+        img {
+            height: 300px;
+            width: 900px;
+        }
+
+        a.ministry-events {
+            text-decoration: none;
+            color: #3f9efc;
+            border: 1px solid #3f9efc;
+            padding: 10px;
+            font-weight: bold;
+        }
+    }
+}

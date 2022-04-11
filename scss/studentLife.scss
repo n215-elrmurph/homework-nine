@@ -1,0 +1,190 @@
+.student-life-hero {
+    height: 400px;
+    background-image: url(../images/studentLife/student-life-hero.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-top: -50px;
+    position: relative;
+
+    .student-life-title {
+        font-size: 50px;
+        color: #FFF;
+        background-color: #171f59;
+        width:fit-content;
+        padding: 10px;
+        display: flex;
+        margin: 0 auto;
+        position: absolute;
+        top: 150px;
+        left: 37%;
+    }
+}
+
+.content {
+    .life-on-campus {
+        margin-top: 40px;
+        background-color: #f7f7f7;
+        height: 350px;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: .5px solid #000;
+
+        .life-on-campus-title {
+            font-size: 30px;
+            padding-bottom: 20px;
+            color: #171f59;
+        }
+
+        .life-on-campus-desc {
+            font-size: 18px;
+        }
+    }
+
+    .student-organizations {
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .student-organization-title {
+            font-size: 30px;
+            color:#171f59;
+            padding: 15px;
+            border-bottom: 1px dashed #171f59;
+        }
+        a.governemnt {
+            text-decoration: none;
+            color: #3f9efc;
+            border: .5px solid #3f9efc;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        a.clubs {
+            text-decoration: none;
+            color: #3f9efc;
+            border: .5px solid #3f9efc;
+            padding: 15px;
+            margin-top: 15px;
+        }
+    }
+
+
+    .housing-options-title {
+        font-size: 30px;
+        color: #171f59;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        background-color: #f7f7f7;
+        padding: 20px;
+        padding-top: 40px;
+        border: .5px solid #000;
+        border-bottom: none;
+    }
+
+    .housing-options {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #f7f7f7;
+        margin-top: 0px;
+        border: .5px solid #000;
+        border-top: none;
+
+        .housing-option1 {
+            height: 400px;
+            width: 363px;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            border: .5px solid #171f59;
+
+            img {
+                padding: 5px;
+            }
+
+            .option1-title {
+                font-size: 20px;
+                padding: 10px;
+            }
+
+            .option1-desc {
+                font-size: 18px;
+                padding-left: 10px;
+                line-height: 22px;
+            }
+
+            a.option1-btn {
+                text-decoration: none;
+                color: #3f9efc;
+                padding-left: 10px;
+                font-weight: bold;
+            }
+        }
+
+        .housing-option2 {
+            height: 400px;
+            width: 363px;
+            margin-top: 30px;
+            border: .5px solid #171f59;
+
+            img {
+                padding: 5px;
+            }
+
+            .option2-title {
+                font-size: 20px;
+                padding: 10px;
+            }
+
+            .option2-desc {
+                font-size: 18px;
+                padding-left: 10px;
+                line-height: 22px;
+            }
+
+            a.option2-btn {
+                text-decoration: none;
+                color: #3f9efc;
+                padding-left: 10px;
+                font-weight: bold;
+            }
+        }
+
+        .housing-option3 {
+            height: 400px;
+            width: 363px;
+            margin-top: 30px;
+            border: .5px solid #171f59;
+
+            img {
+                padding: 5px;
+            }
+
+            .option3-title {
+                font-size: 20px;
+                padding: 10px;
+            }
+
+            .option3-desc {
+                font-size: 18px;
+                padding-left: 10px;
+                line-height: 22px;
+            }
+
+            a.option3-btn {
+                text-decoration: none;
+                color: #3f9efc;
+                padding-left: 10px;
+                font-weight: bold;
+            }
+        }
+    }
+}

@@ -1,0 +1,179 @@
+.academics-hero {
+    height: 400px;
+    background-image: url(../images/academics-hero.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-top: -50px;
+    position: relative;
+
+    .academics-title {
+        font-size: 50px;
+        color: #FFF;
+        background-color: #171f59;
+        width:fit-content;
+        padding: 10px;
+        display: flex;
+        margin: 0 auto;
+        position: absolute;
+        top: 150px;
+        left: 39%;
+    }
+}
+
+.content {
+    .academic-images {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+
+        img {
+            width: 400px;
+            height: 350px;   
+        }
+    }
+
+    .schools-and-programs {
+        margin-top: 40px;
+        height: 800px;
+        background-color: #f7f7f7;
+        border-radius: 30px;
+        border: .5px solid #000;
+
+        .schools-and-programs-title {
+            font-size: 30px;
+            color: #000;
+            padding-top: 30px;
+            margin-left: 41%;
+        }
+
+        .program-list {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 40px;
+            margin-bottom: 40px;
+
+            .program1 {
+                height: 180px;
+                width: 350px;
+                background-color: #fff;
+                border: .5px solid #171f59;
+
+                .program-title {
+                    color: #000;
+                    font-size: 20px;
+                    padding: 10px;
+                }
+
+                .program-desc {
+                    color: #636363;
+                    padding: 10px;
+                    font-size: 17px;
+                    text-indent: 10px;
+                }
+            }
+
+            .program2 {
+                height: 180px;
+                width: 350px;
+                background-color: #fff;
+                border: .5px solid #171f59;
+
+                .program-title {
+                    color: #000;
+                    font-size: 20px;
+                    padding: 10px;
+                }
+
+                .program-desc {
+                    color: #636363;
+                    padding: 10px;
+                    font-size: 17px;
+                    text-indent: 10px;
+                }
+            }
+
+            .program3 {
+                height: 180px;
+                width: 350px;
+                background-color: #fff;
+                border: .5px solid #171f59;
+
+                .program-title {
+                    color: #000;
+                    font-size: 20px;
+                    padding: 10px;
+                }
+
+                .program-desc {
+                    color: #636363;
+                    padding: 10px;
+                    font-size: 17px;
+                    text-indent: 10px;
+                }
+            }
+        }
+    }
+    .abroad-study {
+        margin-top: 40px;
+        background-color: #f7f7f7;
+        border-radius: 30px;
+        border: .5px solid #000;
+        position: relative;
+
+        img {
+            height: 350px;
+            width: 450px;
+            margin-left: 180px;
+        }
+
+        p.study-abroad-title {
+            position: absolute;
+            font-size: 30px;
+            top: 30px;
+            left: 630px;
+            color: #171f59;
+        }
+
+        p.study-abroad-desc {
+            position: absolute;
+            font-size: 20px;
+            top: 90px;
+            left: 630px;
+        }
+
+        .study-abroad-btn {
+            text-decoration: none;
+            font-weight: bold;
+            color: #3f9efc;
+            border: 1px solid #3f9efc;
+            padding: 10px;
+            position: absolute;
+            top: 150px;
+        }
+
+        .international {
+            text-decoration: none;
+            font-weight: bold;
+            color: #3f9efc;
+            border: 1px solid #3f9efc;
+            padding: 10px;
+            position: absolute;
+            top: 150px;
+            left: 775px;
+        }
+
+        .student-success {
+            text-decoration: none;
+            font-weight: bold;
+            color: #3f9efc;
+            border: 1px solid #3f9efc;
+            padding: 10px;
+            position: absolute;
+            top: 200px;
+            left: 630px;
+        }
+    }
+}
